@@ -1,0 +1,4 @@
+Sapiens, Yuval Harari, True
+Blink, Malcolm Gladwell, False
+Moby Dick, Herman Melville, False
+The Goldenfinch, Donna Tartt, False

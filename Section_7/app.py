@@ -25,8 +25,7 @@ def menu():
             delete_book()
         else:
             print('Unknown command. Please try again.')
-
-        user_input = input(USER_CHOICE)
+            user_input = input(USER_CHOICE)
 
 
 # Add a new book to the database
@@ -42,7 +41,7 @@ def add_book():
 # List all books in the database
 def list_books():
     print('Books currently in your library:')
-    database.list_all()
+    print(database.list_all())
     menu()
 
 
@@ -64,4 +63,4 @@ def delete_book():
 
 # Run program
 menu()
-print('Program ended')
+print('The program has ended.')
