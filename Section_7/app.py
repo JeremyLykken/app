@@ -10,6 +10,7 @@ Enter:
 
 Your choice: """
 
+database.create_book_table()
 
 def menu():
     user_input = input(USER_CHOICE)
